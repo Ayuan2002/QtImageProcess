@@ -20,32 +20,32 @@ Qt负责用户界面构建，OpenCV负责实现图像处理算法
 
 1.基础算法-水平翻转
 
-![基础](https://raw.githubusercontent.com/pxy2813268157/ImageRepository/master/edge.png)
+![基础](https://raw.githubusercontent.com/pxy2813268157/ImageRepository/master/base.png)
 
 2.图像分割-边缘检测（canny算子）
 
-![](./screenShot/edge.png)
+![](https://raw.githubusercontent.com/pxy2813268157/ImageRepository/master/edge.png)
 
 3.频率域增强-傅里叶变换
 
-![](./screenShot/frequency.png)
+![](https://raw.githubusercontent.com/pxy2813268157/ImageRepository/master/frequency.png)
 
 4.空间域增强-直方图均衡
 
-![](./screenShot/dimension.png)
+![](https://raw.githubusercontent.com/pxy2813268157/ImageRepository/master/dimension.png)
 
 5.形态学操作-腐蚀
 
-![](./screenShot/erosion.png)
+![](https://raw.githubusercontent.com/pxy2813268157/ImageRepository/master/erosion.png)
 
 6.车牌识别
 
-![](./screenShot/recognize.png)
+![](https://raw.githubusercontent.com/pxy2813268157/ImageRepository/master/recognize.png)
 
 7.添加噪声
 
-![](./screenShot/noise.png)
+![](https://raw.githubusercontent.com/pxy2813268157/ImageRepository/master/noise.png)
 
 8.直方图
 
-![](./screenShot/histogram.png)
+![](https://raw.githubusercontent.com/pxy2813268157/ImageRepository/master/histogram.png)
