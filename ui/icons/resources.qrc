@@ -1,0 +1,24 @@
+<RCC>
+  <qresource prefix="/icons">
+    <file>noise.png</file>
+    <file>bar-chart.png</file>
+    <file>close.png</file>
+    <file>diskette.png</file>
+    <file>flip-h.png</file>
+    <file>flip-v.png</file>
+    <file>folder.png</file>
+    <file>icon.png</file>
+    <file>information.png</file>
+    <file>resize.png</file>
+    <file>resources.qrc</file>
+    <file>restore.png</file>
+    <file>rotate.png</file>
+    <file>folder.png</file>
+    <file>bar-chart.png</file>
+    <file>close.png</file>
+    <file>information.png</file>
+    <file>diskette.png</file>
+    <file>restore.png</file>
+    <file>icon.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/icons">
+    <file alias="ui/icons/restore.png">C:/Cpp-code/QtImageProcess/ui/icons/restore.png</file>
+  </qresource>
+</RCC>
+

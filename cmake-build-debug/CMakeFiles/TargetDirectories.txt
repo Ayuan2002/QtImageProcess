@@ -1,0 +1,4 @@
+C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/QtImageProcess.dir
+C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/QtImageProcess_autogen.dir

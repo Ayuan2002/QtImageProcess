@@ -1,0 +1,654 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/development_tools/MinGW-64/bin/cc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/3.26.5/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/development_tools/MinGW-64/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/3.26.5/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oe3eh9"
+      binary: "C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oe3eh9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oe3eh9
+        
+        Run Build Command(s):C:/development_tools/cmake/bin/cmake.exe -E env VERBOSE=1 C:/development_tools/MinGW-64/bin/mingw32-make.exe -f Makefile cmTC_82368/fast && make  -f CMakeFiles\\cmTC_82368.dir\\build.make CMakeFiles/cmTC_82368.dir/build
+        make[1]: Entering directory 'C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oe3eh9'
+        Building C object CMakeFiles/cmTC_82368.dir/CMakeCCompilerABI.c.obj
+        C:\\development_tools\\MinGW-64\\bin\\cc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_82368.dir\\CMakeCCompilerABI.c.obj -c C:\\development_tools\\cmake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=cc
+        Target: x86_64-w64-mingw32
+        Configured with: /gcc-13.2.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c,c++ --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_82368.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_82368.dir\\'
+         C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -isysroot C:/development_tools/MinGW-64/bin/../x86_64-w64-mingw32 -D_REENTRANT C:\\development_tools\\cmake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_82368.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\Ayuan\\AppData\\Local\\Temp\\cc9o3kxm.s
+        GNU C17 (GCC) version 13.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/development_tools/MinGW-64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include"
+        ignoring nonexistent directory "C:/development_tools/MinGW-64/bin/../x86_64-w64-mingw32/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"
+        ignoring duplicate directory "C:/development_tools/MinGW-64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"
+        ignoring duplicate directory "C:/development_tools/MinGW-64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/development_tools/MinGW-64/bin/../x86_64-w64-mingw32/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include
+         C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed
+         C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 055af4833c5f81a4fd6295dedebfeca6
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_82368.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_82368.dir\\'
+         as -v -o CMakeFiles\\cmTC_82368.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Ayuan\\AppData\\Local\\Temp\\cc9o3kxm.s
+        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
+        COMPILER_PATH=C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;C:/development_tools/MinGW-64/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/development_tools/MinGW-64/bin/../lib/gcc/;C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_82368.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_82368.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_82368.exe
+        C:\\development_tools\\cmake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_82368.dir\\link.txt --verbose=1
+        C:\\development_tools\\cmake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_82368.dir/objects.a
+        C:\\development_tools\\MinGW-64\\bin\\ar.exe qc CMakeFiles\\cmTC_82368.dir/objects.a @CMakeFiles\\cmTC_82368.dir\\objects1.rsp
+        C:\\development_tools\\MinGW-64\\bin\\cc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_82368.dir/objects.a -Wl,--no-whole-archive -o cmTC_82368.exe -Wl,--out-implib,libcmTC_82368.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=cc
+        COLLECT_LTO_WRAPPER=C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: /gcc-13.2.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c,c++ --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.2.0 (GCC) 
+        COMPILER_PATH=C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;C:/development_tools/MinGW-64/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/development_tools/MinGW-64/bin/../lib/gcc/;C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82368.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_82368.'
+         C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Ayuan\\AppData\\Local\\Temp\\cczee38I.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/development_tools/MinGW-64/bin/../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_82368.exe C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/development_tools/MinGW-64/bin/../lib/gcc -LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. --whole-archive CMakeFiles\\cmTC_82368.dir/objects.a --no-whole-archive --out-implib libcmTC_82368.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82368.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_82368.'
+        make[1]: Leaving directory 'C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oe3eh9'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+          add: [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+          add: [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include] ==> [C:/development_tools/MinGW-64/lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+        collapse include dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed] ==> [C:/development_tools/MinGW-64/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+        collapse include dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/development_tools/MinGW-64/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/development_tools/MinGW-64/lib/gcc/x86_64-w64-mingw32/13.2.0/include;C:/development_tools/MinGW-64/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed;C:/development_tools/MinGW-64/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oe3eh9]
+        ignore line: []
+        ignore line: [Run Build Command(s):C:/development_tools/cmake/bin/cmake.exe -E env VERBOSE=1 C:/development_tools/MinGW-64/bin/mingw32-make.exe -f Makefile cmTC_82368/fast && make  -f CMakeFiles\\cmTC_82368.dir\\build.make CMakeFiles/cmTC_82368.dir/build]
+        ignore line: [make[1]: Entering directory 'C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oe3eh9']
+        ignore line: [Building C object CMakeFiles/cmTC_82368.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\development_tools\\MinGW-64\\bin\\cc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_82368.dir\\CMakeCCompilerABI.c.obj -c C:\\development_tools\\cmake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=cc]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: /gcc-13.2.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c c++ --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_82368.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_82368.dir\\']
+        ignore line: [ C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -isysroot C:/development_tools/MinGW-64/bin/../x86_64-w64-mingw32 -D_REENTRANT C:\\development_tools\\cmake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_82368.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\Ayuan\\AppData\\Local\\Temp\\cc9o3kxm.s]
+        ignore line: [GNU C17 (GCC) version 13.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/development_tools/MinGW-64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/development_tools/MinGW-64/bin/../x86_64-w64-mingw32/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/development_tools/MinGW-64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/development_tools/MinGW-64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/development_tools/MinGW-64/bin/../x86_64-w64-mingw32/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+        ignore line: [ C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+        ignore line: [ C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 055af4833c5f81a4fd6295dedebfeca6]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_82368.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_82368.dir\\']
+        ignore line: [ as -v -o CMakeFiles\\cmTC_82368.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Ayuan\\AppData\\Local\\Temp\\cc9o3kxm.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
+        ignore line: [COMPILER_PATH=C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/development_tools/MinGW-64/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/development_tools/MinGW-64/bin/../lib/gcc/]
+        ignore line: [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
+        ignore line: [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_82368.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_82368.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_82368.exe]
+        ignore line: [C:\\development_tools\\cmake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_82368.dir\\link.txt --verbose=1]
+        ignore line: [C:\\development_tools\\cmake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_82368.dir/objects.a]
+        ignore line: [C:\\development_tools\\MinGW-64\\bin\\ar.exe qc CMakeFiles\\cmTC_82368.dir/objects.a @CMakeFiles\\cmTC_82368.dir\\objects1.rsp]
+        ignore line: [C:\\development_tools\\MinGW-64\\bin\\cc.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_82368.dir/objects.a -Wl --no-whole-archive -o cmTC_82368.exe -Wl --out-implib libcmTC_82368.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=cc]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: /gcc-13.2.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c c++ --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/development_tools/MinGW-64/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/development_tools/MinGW-64/bin/../lib/gcc/]
+        ignore line: [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
+        ignore line: [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82368.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_82368.']
+        link line: [ C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Ayuan\\AppData\\Local\\Temp\\cczee38I.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/development_tools/MinGW-64/bin/../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_82368.exe C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/development_tools/MinGW-64/bin/../lib/gcc -LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. --whole-archive CMakeFiles\\cmTC_82368.dir/objects.a --no-whole-archive --out-implib libcmTC_82368.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+          arg [C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Ayuan\\AppData\\Local\\Temp\\cczee38I.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [--sysroot=C:/development_tools/MinGW-64/bin/../x86_64-w64-mingw32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_82368.exe] ==> ignore
+          arg [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o] ==> obj [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o]
+          arg [-LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0] ==> dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0]
+          arg [-LC:/development_tools/MinGW-64/bin/../lib/gcc] ==> dir [C:/development_tools/MinGW-64/bin/../lib/gcc]
+          arg [-LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib] ==> dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib]
+          arg [-LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..] ==> dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..]
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_82368.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_82368.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o] ==> obj [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/development_tools/MinGW-64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o] ==> [C:/development_tools/MinGW-64/lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o]
+        collapse obj [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o] ==> [C:/development_tools/MinGW-64/lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        collapse library dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0] ==> [C:/development_tools/MinGW-64/lib/gcc/x86_64-w64-mingw32/13.2.0]
+        collapse library dir [C:/development_tools/MinGW-64/bin/../lib/gcc] ==> [C:/development_tools/MinGW-64/lib/gcc]
+        collapse library dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/development_tools/MinGW-64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib] ==> [C:/development_tools/MinGW-64/lib]
+        collapse library dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/development_tools/MinGW-64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..] ==> [C:/development_tools/MinGW-64/lib]
+        implicit libs: [mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: [C:/development_tools/MinGW-64/x86_64-w64-mingw32/lib/crt2.o;C:/development_tools/MinGW-64/lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o;C:/development_tools/MinGW-64/lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        implicit dirs: [C:/development_tools/MinGW-64/lib/gcc/x86_64-w64-mingw32/13.2.0;C:/development_tools/MinGW-64/lib/gcc;C:/development_tools/MinGW-64/x86_64-w64-mingw32/lib;C:/development_tools/MinGW-64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bko1jb"
+      binary: "C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bko1jb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bko1jb
+        
+        Run Build Command(s):C:/development_tools/cmake/bin/cmake.exe -E env VERBOSE=1 C:/development_tools/MinGW-64/bin/mingw32-make.exe -f Makefile cmTC_c4bc9/fast && make  -f CMakeFiles\\cmTC_c4bc9.dir\\build.make CMakeFiles/cmTC_c4bc9.dir/build
+        make[1]: Entering directory 'C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bko1jb'
+        Building CXX object CMakeFiles/cmTC_c4bc9.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\development_tools\\MinGW-64\\bin\\c++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_c4bc9.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\development_tools\\cmake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=c++
+        Target: x86_64-w64-mingw32
+        Configured with: /gcc-13.2.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c,c++ --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_c4bc9.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_c4bc9.dir\\'
+         C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1plus.exe -quiet -v -iprefix C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -isysroot C:/development_tools/MinGW-64/bin/../x86_64-w64-mingw32 -D_REENTRANT C:\\development_tools\\cmake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_c4bc9.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\Ayuan\\AppData\\Local\\Temp\\ccPUOPOc.s
+        GNU C++17 (GCC) version 13.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/development_tools/MinGW-64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++"
+        ignoring duplicate directory "C:/development_tools/MinGW-64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "C:/development_tools/MinGW-64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/backward"
+        ignoring duplicate directory "C:/development_tools/MinGW-64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include"
+        ignoring nonexistent directory "C:/development_tools/MinGW-64/bin/../x86_64-w64-mingw32/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"
+        ignoring duplicate directory "C:/development_tools/MinGW-64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"
+        ignoring duplicate directory "C:/development_tools/MinGW-64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/development_tools/MinGW-64/bin/../x86_64-w64-mingw32/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++
+         C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32
+         C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/backward
+         C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include
+         C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed
+         C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: f600f7d0514a97277c07e8ea3d368555
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_c4bc9.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_c4bc9.dir\\'
+         as -v -o CMakeFiles\\cmTC_c4bc9.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Ayuan\\AppData\\Local\\Temp\\ccPUOPOc.s
+        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
+        COMPILER_PATH=C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;C:/development_tools/MinGW-64/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/development_tools/MinGW-64/bin/../lib/gcc/;C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_c4bc9.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_c4bc9.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_c4bc9.exe
+        C:\\development_tools\\cmake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_c4bc9.dir\\link.txt --verbose=1
+        C:\\development_tools\\cmake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_c4bc9.dir/objects.a
+        C:\\development_tools\\MinGW-64\\bin\\ar.exe qc CMakeFiles\\cmTC_c4bc9.dir/objects.a @CMakeFiles\\cmTC_c4bc9.dir\\objects1.rsp
+        C:\\development_tools\\MinGW-64\\bin\\c++.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_c4bc9.dir/objects.a -Wl,--no-whole-archive -o cmTC_c4bc9.exe -Wl,--out-implib,libcmTC_c4bc9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=c++
+        COLLECT_LTO_WRAPPER=C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: /gcc-13.2.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c,c++ --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.2.0 (GCC) 
+        COMPILER_PATH=C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;C:/development_tools/MinGW-64/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/development_tools/MinGW-64/bin/../lib/gcc/;C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c4bc9.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c4bc9.'
+         C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Ayuan\\AppData\\Local\\Temp\\ccGnvJxm.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/development_tools/MinGW-64/bin/../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_c4bc9.exe C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/development_tools/MinGW-64/bin/../lib/gcc -LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. --whole-archive CMakeFiles\\cmTC_c4bc9.dir/objects.a --no-whole-archive --out-implib libcmTC_c4bc9.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c4bc9.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c4bc9.'
+        make[1]: Leaving directory 'C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bko1jb'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++]
+          add: [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32]
+          add: [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/backward]
+          add: [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+          add: [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+          add: [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++] ==> [C:/development_tools/MinGW-64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++]
+        collapse include dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32] ==> [C:/development_tools/MinGW-64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32]
+        collapse include dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/backward] ==> [C:/development_tools/MinGW-64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/backward]
+        collapse include dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include] ==> [C:/development_tools/MinGW-64/lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+        collapse include dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed] ==> [C:/development_tools/MinGW-64/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+        collapse include dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/development_tools/MinGW-64/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/development_tools/MinGW-64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++;C:/development_tools/MinGW-64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32;C:/development_tools/MinGW-64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/backward;C:/development_tools/MinGW-64/lib/gcc/x86_64-w64-mingw32/13.2.0/include;C:/development_tools/MinGW-64/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed;C:/development_tools/MinGW-64/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bko1jb]
+        ignore line: []
+        ignore line: [Run Build Command(s):C:/development_tools/cmake/bin/cmake.exe -E env VERBOSE=1 C:/development_tools/MinGW-64/bin/mingw32-make.exe -f Makefile cmTC_c4bc9/fast && make  -f CMakeFiles\\cmTC_c4bc9.dir\\build.make CMakeFiles/cmTC_c4bc9.dir/build]
+        ignore line: [make[1]: Entering directory 'C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bko1jb']
+        ignore line: [Building CXX object CMakeFiles/cmTC_c4bc9.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\development_tools\\MinGW-64\\bin\\c++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_c4bc9.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\development_tools\\cmake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=c++]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: /gcc-13.2.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c c++ --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_c4bc9.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_c4bc9.dir\\']
+        ignore line: [ C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1plus.exe -quiet -v -iprefix C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -isysroot C:/development_tools/MinGW-64/bin/../x86_64-w64-mingw32 -D_REENTRANT C:\\development_tools\\cmake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_c4bc9.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\Ayuan\\AppData\\Local\\Temp\\ccPUOPOc.s]
+        ignore line: [GNU C++17 (GCC) version 13.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/development_tools/MinGW-64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++"]
+        ignore line: [ignoring duplicate directory "C:/development_tools/MinGW-64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "C:/development_tools/MinGW-64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "C:/development_tools/MinGW-64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/development_tools/MinGW-64/bin/../x86_64-w64-mingw32/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/development_tools/MinGW-64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/development_tools/MinGW-64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/development_tools/MinGW-64/bin/../x86_64-w64-mingw32/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++]
+        ignore line: [ C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32]
+        ignore line: [ C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/backward]
+        ignore line: [ C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+        ignore line: [ C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+        ignore line: [ C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: f600f7d0514a97277c07e8ea3d368555]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_c4bc9.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_c4bc9.dir\\']
+        ignore line: [ as -v -o CMakeFiles\\cmTC_c4bc9.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Ayuan\\AppData\\Local\\Temp\\ccPUOPOc.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
+        ignore line: [COMPILER_PATH=C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/development_tools/MinGW-64/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/development_tools/MinGW-64/bin/../lib/gcc/]
+        ignore line: [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
+        ignore line: [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_c4bc9.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_c4bc9.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_c4bc9.exe]
+        ignore line: [C:\\development_tools\\cmake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_c4bc9.dir\\link.txt --verbose=1]
+        ignore line: [C:\\development_tools\\cmake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_c4bc9.dir/objects.a]
+        ignore line: [C:\\development_tools\\MinGW-64\\bin\\ar.exe qc CMakeFiles\\cmTC_c4bc9.dir/objects.a @CMakeFiles\\cmTC_c4bc9.dir\\objects1.rsp]
+        ignore line: [C:\\development_tools\\MinGW-64\\bin\\c++.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_c4bc9.dir/objects.a -Wl --no-whole-archive -o cmTC_c4bc9.exe -Wl --out-implib libcmTC_c4bc9.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=c++]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: /gcc-13.2.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c c++ --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/development_tools/MinGW-64/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/development_tools/MinGW-64/bin/../lib/gcc/]
+        ignore line: [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
+        ignore line: [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c4bc9.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c4bc9.']
+        link line: [ C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Ayuan\\AppData\\Local\\Temp\\ccGnvJxm.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/development_tools/MinGW-64/bin/../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_c4bc9.exe C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/development_tools/MinGW-64/bin/../lib/gcc -LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. --whole-archive CMakeFiles\\cmTC_c4bc9.dir/objects.a --no-whole-archive --out-implib libcmTC_c4bc9.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+          arg [C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=C:/development_tools/MinGW-64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Ayuan\\AppData\\Local\\Temp\\ccGnvJxm.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [--sysroot=C:/development_tools/MinGW-64/bin/../x86_64-w64-mingw32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_c4bc9.exe] ==> ignore
+          arg [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o] ==> obj [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o]
+          arg [-LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0] ==> dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0]
+          arg [-LC:/development_tools/MinGW-64/bin/../lib/gcc] ==> dir [C:/development_tools/MinGW-64/bin/../lib/gcc]
+          arg [-LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib] ==> dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib]
+          arg [-LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LC:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..] ==> dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..]
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_c4bc9.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_c4bc9.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o] ==> obj [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/development_tools/MinGW-64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o] ==> [C:/development_tools/MinGW-64/lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o]
+        collapse obj [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o] ==> [C:/development_tools/MinGW-64/lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        collapse library dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0] ==> [C:/development_tools/MinGW-64/lib/gcc/x86_64-w64-mingw32/13.2.0]
+        collapse library dir [C:/development_tools/MinGW-64/bin/../lib/gcc] ==> [C:/development_tools/MinGW-64/lib/gcc]
+        collapse library dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/development_tools/MinGW-64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib] ==> [C:/development_tools/MinGW-64/lib]
+        collapse library dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/development_tools/MinGW-64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/development_tools/MinGW-64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..] ==> [C:/development_tools/MinGW-64/lib]
+        implicit libs: [stdc++;mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: [C:/development_tools/MinGW-64/x86_64-w64-mingw32/lib/crt2.o;C:/development_tools/MinGW-64/lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o;C:/development_tools/MinGW-64/lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        implicit dirs: [C:/development_tools/MinGW-64/lib/gcc/x86_64-w64-mingw32/13.2.0;C:/development_tools/MinGW-64/lib/gcc;C:/development_tools/MinGW-64/x86_64-w64-mingw32/lib;C:/development_tools/MinGW-64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.6.0/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.6.0/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake:24 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.6.0/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:111 (include)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-h7xhsy"
+      binary: "C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-h7xhsy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.6.0/mingw_64/lib/cmake/Qt6;C:/Qt/6.6.0/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.6.0/mingw_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-h7xhsy
+        
+        Run Build Command(s):C:/development_tools/cmake/bin/cmake.exe -E env VERBOSE=1 C:/development_tools/MinGW-64/bin/mingw32-make.exe -f Makefile cmTC_6d67d/fast && make  -f CMakeFiles\\cmTC_6d67d.dir\\build.make CMakeFiles/cmTC_6d67d.dir/build
+        make[1]: Entering directory 'C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-h7xhsy'
+        Building C object CMakeFiles/cmTC_6d67d.dir/src.c.obj
+        C:\\development_tools\\MinGW-64\\bin\\cc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -fdiagnostics-color=always -o CMakeFiles\\cmTC_6d67d.dir\\src.c.obj -c C:\\Cpp-code\\QtImageProcess\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-h7xhsy\\src.c
+        Linking C executable cmTC_6d67d.exe
+        C:\\development_tools\\cmake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_6d67d.dir\\link.txt --verbose=1
+        C:\\development_tools\\cmake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_6d67d.dir/objects.a
+        C:\\development_tools\\MinGW-64\\bin\\ar.exe qc CMakeFiles\\cmTC_6d67d.dir/objects.a @CMakeFiles\\cmTC_6d67d.dir\\objects1.rsp
+        C:\\development_tools\\MinGW-64\\bin\\cc.exe -Wl,--whole-archive CMakeFiles\\cmTC_6d67d.dir/objects.a -Wl,--no-whole-archive -o cmTC_6d67d.exe -Wl,--out-implib,libcmTC_6d67d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_6d67d.dir\\linkLibs.rsp
+        make[1]: Leaving directory 'C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-h7xhsy'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "C:/Qt/6.6.0/mingw_64/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "C:/development_tools/cmake/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.6.0/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.6.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:30 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.6.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:41 (include)"
+      - "C:/Qt/6.6.0/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:156 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ne5pxp"
+      binary: "C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ne5pxp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.6.0/mingw_64/lib/cmake/Qt6;C:/Qt/6.6.0/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.6.0/mingw_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ne5pxp
+        
+        Run Build Command(s):C:/development_tools/cmake/bin/cmake.exe -E env VERBOSE=1 C:/development_tools/MinGW-64/bin/mingw32-make.exe -f Makefile cmTC_02a80/fast && make  -f CMakeFiles\\cmTC_02a80.dir\\build.make CMakeFiles/cmTC_02a80.dir/build
+        make[1]: Entering directory 'C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ne5pxp'
+        Building CXX object CMakeFiles/cmTC_02a80.dir/src.cxx.obj
+        C:\\development_tools\\MinGW-64\\bin\\c++.exe -DHAVE_STDATOMIC  -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\cmTC_02a80.dir\\src.cxx.obj -c C:\\Cpp-code\\QtImageProcess\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-ne5pxp\\src.cxx
+        Linking CXX executable cmTC_02a80.exe
+        C:\\development_tools\\cmake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_02a80.dir\\link.txt --verbose=1
+        C:\\development_tools\\cmake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_02a80.dir/objects.a
+        C:\\development_tools\\MinGW-64\\bin\\ar.exe qc CMakeFiles\\cmTC_02a80.dir/objects.a @CMakeFiles\\cmTC_02a80.dir\\objects1.rsp
+        C:\\development_tools\\MinGW-64\\bin\\c++.exe -Wl,--whole-archive CMakeFiles\\cmTC_02a80.dir/objects.a -Wl,--no-whole-archive -o cmTC_02a80.exe -Wl,--out-implib,libcmTC_02a80.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_02a80.dir\\linkLibs.rsp
+        make[1]: Leaving directory 'C:/Cpp-code/QtImageProcess/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ne5pxp'
+        
+      exitCode: 0
+...
