@@ -20,7 +20,7 @@ Qt负责用户界面构建，OpenCV负责实现图像处理算法
 
 1.基础算法-水平翻转
 
-![基础](https://github.com/pxy2813268157/ImageRepository/deferred-metadata/master/base.png)
+![基础](./screenShot/base.png)
 
 2.图像分割-边缘检测（canny算子）
 
