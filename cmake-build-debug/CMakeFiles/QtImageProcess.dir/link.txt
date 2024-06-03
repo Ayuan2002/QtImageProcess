@@ -1,3 +1,0 @@
-C:\development_tools\cmake\bin\cmake.exe -E rm -f CMakeFiles\QtImageProcess.dir/objects.a
-C:\development_tools\MinGW-64\bin\ar.exe qc CMakeFiles\QtImageProcess.dir/objects.a @CMakeFiles\QtImageProcess.dir\objects1.rsp
-C:\development_tools\MinGW-64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\QtImageProcess.dir/objects.a -Wl,--no-whole-archive -o QtImageProcess.exe -Wl,--out-implib,libQtImageProcess.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\QtImageProcess.dir\linkLibs.rsp

@@ -1,4 +1,0 @@
-ToolSet: w64 11.0 (local)@C:\development_tools\MinGW-64
-Options: 
-
-Options:-DCMAKE_MAKE_PROGRAM=C:/development_tools/MinGW-64/bin/mingw32-make.exe
