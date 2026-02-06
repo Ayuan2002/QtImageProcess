@@ -212,26 +212,25 @@ QPixmap ImageUtil::addSimulationNoise(const QString &input) {
         double noise_mean = 0.0;
         double noise_stddev = 10.0;
         auto channels = image.channels();
-        for (int i = 0; i < image.cols; ++i) {
-            for (int j = 0; j < image.rows; ++j) {
+        for (int row = 0; row < image.rows; ++row) {
+            for (int col = 0; col < image.cols; ++col) {
+                double noise_value = noise_mean + noise_stddev * dist(rng) / (RAND_MAX + 1.0);
                 if (channels == 1){
-                    double noise_value = noise_mean + noise_stddev * dist(rng) / (RAND_MAX + 1.0);
-                    image.at<uchar>(i, j) += noise_value;
+                    auto &pixel = image.at<uchar>(row, col);
+                    pixel = cv::saturate_cast<uchar>(pixel + noise_value);
                 }
                 else if(channels == 3){
-                    // 使用高斯分布生成噪声值
-                    double noise_value = noise_mean + noise_stddev * dist(rng) / (RAND_MAX + 1.0);
                     // 添加噪声到每个通道
                     for (int c = 0; c < 3; ++c) {
-                        image.at<cv::Vec3b>(i, j)[c] += noise_value;
+                        auto &pixel = image.at<cv::Vec3b>(row, col)[c];
+                        pixel = cv::saturate_cast<uchar>(pixel + noise_value);
                     }
                 }
                 else if(channels == 4){
-                    // 使用高斯分布生成噪声值
-                    double noise_value = noise_mean + noise_stddev * dist(rng) / (RAND_MAX + 1.0);
                     // 添加噪声到每个通道
                     for (int c = 0; c < 4; ++c) {
-                        image.at<cv::Vec4b>(i, j)[c] += noise_value;
+                        auto &pixel = image.at<cv::Vec4b>(row, col)[c];
+                        pixel = cv::saturate_cast<uchar>(pixel + noise_value);
                     }
                 }
             }
@@ -255,4 +254,3 @@ QPixmap ImageUtil::getPixmapFromFile(const QString &filePath) {
     }
     return {};
 }
-
